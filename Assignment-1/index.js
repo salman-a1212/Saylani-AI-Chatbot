@@ -37,3 +37,13 @@ btn3.onclick = function myfunction3() {
   console.log("result3: ", result3);
   document.getElementById("result3").innerText = result3;
 };
+
+// Remainder
+btn4.onclick = function myfunction4() {
+  let num9 = document.getElementById("num9").value;
+  let num10 = document.getElementById("num10").value;
+
+  let result4 = Number(num9).toFixed(2) % Number(num10).toFixed(2);
+  console.log("result4: ", result4);
+  document.getElementById("result4").innerText = result4;
+};
