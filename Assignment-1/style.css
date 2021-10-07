@@ -19,13 +19,17 @@ input {
   margin: 25px;
 }
 
-#btn {
+#btn,
+#btn1,
+#btn2,
+#btn3 {
   padding: 5px 10px;
 }
 
 #result,
 #result1,
-#result2 {
+#result2,
+#result3 {
   border: 1px solid forestgreen;
   width: 6.5%;
   text-align: center;
