@@ -65,3 +65,12 @@ btn6.onclick = function myfunction6() {
   console.log("result6: ", result6);
   document.getElementById("result6").innerText = result6;
 };
+
+// Exponentiation
+btn7.onclick = function myfunction7() {
+  let num13 = document.getElementById("num13").value;
+
+  let result7 = Math.pow(num13, 2);
+  console.log("result7: ", result7);
+  document.getElementById("result7").innerText = result7;
+};
