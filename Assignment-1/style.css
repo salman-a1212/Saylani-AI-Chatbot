@@ -23,7 +23,9 @@ input {
 #btn1,
 #btn2,
 #btn3,
-#btn4 {
+#btn4,
+#btn5,
+#btn6 {
   padding: 5px 10px;
 }
 
@@ -31,7 +33,9 @@ input {
 #result1,
 #result2,
 #result3,
-#result4 {
+#result4,
+#result5,
+#result6 {
   border: 1px solid forestgreen;
   width: 6.5%;
   text-align: center;
