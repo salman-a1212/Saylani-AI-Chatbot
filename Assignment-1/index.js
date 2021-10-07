@@ -19,11 +19,21 @@ btn1.onclick = function myfunction1() {
 };
 
 // Multiplication
-btn2.onclick = function myfunction1() {
+btn2.onclick = function myfunction2() {
   let num5 = document.getElementById("num5").value;
   let num6 = document.getElementById("num6").value;
 
   let result2 = Number(num5) * Number(num6);
   console.log("result2: ", result2);
   document.getElementById("result2").innerText = result2;
+};
+
+// Division
+btn3.onclick = function myfunction3() {
+  let num7 = document.getElementById("num7").value;
+  let num8 = document.getElementById("num8").value;
+
+  let result3 = Number(num7).toFixed(2) / Number(num8).toFixed(2);
+  console.log("result3: ", result3);
+  document.getElementById("result3").innerText = result3;
 };
