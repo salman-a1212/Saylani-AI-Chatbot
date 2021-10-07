@@ -47,3 +47,21 @@ btn4.onclick = function myfunction4() {
   console.log("result4: ", result4);
   document.getElementById("result4").innerText = result4;
 };
+
+// Increment
+btn5.onclick = function myfunction5() {
+  let num11 = document.getElementById("num11").value;
+
+  let result5 = ++num11;
+  console.log("result5: ", result5);
+  document.getElementById("result5").innerText = result5;
+};
+
+// Decrement
+btn6.onclick = function myfunction6() {
+  let num12 = document.getElementById("num12").value;
+
+  let result6 = --num12;
+  console.log("result6: ", result6);
+  document.getElementById("result6").innerText = result6;
+};
