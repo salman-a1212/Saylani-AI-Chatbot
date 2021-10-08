@@ -74,19 +74,3 @@ btn7.onclick = function myfunction7() {
   console.log("result7: ", result7);
   document.getElementById("result7").innerText = result7;
 };
-
-// firebase deployment
-<script type='module'>
-  import {initializeApp} from
-  "https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"; const
-  firebaseConfig ={" "}
-  {{
-    apiKey: "AIzaSyDIakS6xmS1w3aeYLu4kY4cLc1QUnlQgiM",
-    authDomain: "ai-class-assignment.firebaseapp.com",
-    projectId: "ai-class-assignment",
-    storageBucket: "ai-class-assignment.appspot.com",
-    messagingSenderId: "74126091405",
-    appId: "1:74126091405:web:93866501bbd9d730e7eec4",
-  }}
-  ; const app = initializeApp(firebaseConfig);
-</script>;
