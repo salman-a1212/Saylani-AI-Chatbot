@@ -1,7 +1,4 @@
-
-
-  <body>
-    <div class="main">
+<div class="main">
       <div class="calc">
         <h1>Class 2 Assignment</h1>
         <h2>Addition</h2>
@@ -78,9 +75,7 @@
         <h1 id="result7"></h1>
       </div>
     </div>
-<!--     <script src="index.js"></script> -->
-  </body>
-</html>
+
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
