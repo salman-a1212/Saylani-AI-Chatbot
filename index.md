@@ -137,7 +137,7 @@ input {
 }
 </style>      
 
-<script>
+<!-- <script>
 // Addition
 btn.onclick = function myfunction() {
   let num1 = document.getElementById("num1").value;
@@ -216,3 +216,4 @@ btn7.onclick = function myfunction7() {
 };
 </script>
 
+ -->
