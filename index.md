@@ -126,6 +126,7 @@ input {
 
 <!-- JS code -->
 // Addition
+<script>
 btn.onclick = function myfunction() {
   let num1 = document.getElementById("num1").value;
   let num2 = document.getElementById("num2").value;
@@ -201,5 +202,6 @@ btn7.onclick = function myfunction7() {
   console.log("result7: ", result7);
   document.getElementById("result7").innerText = result7;
 };
+</script>      
 
 
