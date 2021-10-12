@@ -84,6 +84,7 @@
         <h1 id="result7"></h1>
       </div>
     </div>
+  <script src="script.md"></script>
   </body>
 
 
