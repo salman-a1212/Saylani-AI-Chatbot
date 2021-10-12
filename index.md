@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Class 2 Assignment</title>
+ 
   </head>
 
   <body>
@@ -84,7 +84,6 @@
         <h1 id="result7"></h1>
       </div>
     </div>
-    <script src="index.js"></script>
   </body>
 
 
